@@ -1,0 +1,30 @@
+--------------------------------------------------------
+_____________A L'UTILISATION DE GIT_____________________
+-------------------------------------------------------
+Dans l'invite de commande de git, 
+Se diriger à la racine de son projet avec l'invite de commande git et faire:
+
+git credential-manager uninstall
+git credential-manager install
+
+-----------------------------------------------------------
+____________________ALLER A LA RACINE DE SON PROJET______________
+-----------------------------------------------------------------
+nom_du_projet/./git/                  .......Faire "Entrée
+Effacer tous le contenu
+
+--------------------------------------------------------------
+__________RETOUR DANS L'INVITE DE COMMANDE DE GIT_________________
+---------------------------------------------------------------------
+Faire, toujours à la racine de son projet:
+
+git init
+git add .
+git remote add origin https://....git
+git push -u origin master
+
+
+
+
+
+
