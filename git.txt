@@ -33,6 +33,11 @@ git add .
 git commit -m "Ajouter un commentaire"
 git push -u origin master
 
+--------------------------------------------------------------------------------------
+_________________________________Si la comme de git push -u origin master refuse__________________________
+--------------------------------------------------------------------------------------------------------
+Il faut forcer en excécutant la commande suivante: git push origin master --force
+
 
 
 
