@@ -38,6 +38,16 @@ _________________________________Si la comme de git push -u origin master refuse
 --------------------------------------------------------------------------------------------------------
 Il faut forcer en excécutant la commande suivante: git push origin master --force
 
+--------------------------------------------------------------------------------------
+_________________________________Appliquer les migrations avec heroku__________________________
+--------------------------------------------------------------------------------------------------------
+Faire les commandes de mises à jour puis faire 
+heroku run python manage.py -a nom_app 
+--------------------------------------------------------------------------------------------------------
+
+
+ou
+heroku run python bash -a nom_app
 
 
 
