@@ -45,8 +45,14 @@ Faire les commandes de mises à jour puis faire
 heroku run python manage.py -a nom_app 
 ou
 heroku run bash -a nom_app (- et maintenant faire les commandes habituelles utilisées en local)
---------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 
+-----------------------------------------------------Sous ubuntu-----------------------------------------------------------
+###################"Si l'Utilisateur par defaut de la machine n'est pas forcément le même sur git#########################""
 
+git add .
+git commit -m "initial commit"
+git push origin master
+-------------------------------------------------------------------------------------------------------------------------------
 
 
