@@ -54,5 +54,10 @@ git add .
 git commit -m "initial commit"
 git push origin master
 -------------------------------------------------------------------------------------------------------------------------------
-
+# Si taille fichier supérieur à 100.MB
+    #Procéder par déploiement sur gitlab
+        #Créer un nouveau projet gitlab
+        #Créer un access token
+        #git push https://nom_token:code_générée@gitlab.com/itachyutiwa/solution_akili_classification_de_clients_banque.git
+        #Puis faire: git push https://akili_token:glpat-J7Ns5Z-GCcxmQbRNrUsa@gitlab.com/itachyutiwa/solution_akili_classification_de_clients_banque.git
 
